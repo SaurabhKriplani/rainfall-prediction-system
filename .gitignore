@@ -1,0 +1,41 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+.cdsapirc
+gdx_token
+
+# Large datasets
+data/
+*.nc
+*.grib
+*.grib2
+*.csv
+
+# Archives
+archive/
+*.zip
+*.rar
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build files
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
