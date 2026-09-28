@@ -39,3 +39,9 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+
+# Deployment dataset
+!data/
+!data/final/
+!data/final/september_predictions.csv
